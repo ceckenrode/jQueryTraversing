@@ -2,11 +2,11 @@ $(document).ready(initializer());
 
 function initializer(){
 	$('#pBtn').click(function(){
-		$(".starter-template").append("<button>hello world</button>");
+		$("#elementContainer #pCol").append("<br><button>hello</button>");
 	});
 
 	$('#divBtn').click(function(){
-		$(".starter-template").append("<div>This is the new div</div>");
+		$("#elementContainer #divCol").append("<div>This is the new div</div>");
 	});
 
 }
